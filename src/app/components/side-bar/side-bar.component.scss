@@ -1,0 +1,11 @@
+app-side-bar {
+    width: 100%;
+    height: 100%;
+    .div-side-bar-main {
+        height: 100%;
+        width: 25%;
+        min-width: 300px;
+        background: silver;
+        float: right;
+    }
+}

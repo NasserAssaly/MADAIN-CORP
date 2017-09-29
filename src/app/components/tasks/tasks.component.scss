@@ -1,0 +1,25 @@
+app-tasks {
+    .ul-tasks-list {
+        list-style: none;
+    }
+    .ul-tasks-list li {
+        border-top: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+    .div-task-status {
+        border-radius: 50%;
+        width: 50px;
+        height: 50%;
+        border: 1px solid gray;
+        &.blue {
+            background: blue;
+        }
+        &.green {
+            background: green;
+        }
+        &.red {
+            background: red;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<br />
+<table align="center">
+    <tr>
+        <td colspan="3">
+            <img class="img-avatar" [src]="currUser.imageUrl">
+        </td>
+        <td>
+            <div class="label-name">
+                {{currUser.name}}
+            </div>
+            <div>
+                {{currUser.phone}}
+            </div>
+            <div>
+                {{currUser.email}}
+            </div>
+        </td>
+        <td>
+            <button class="btn btn-blue" (click)="changeCurrentUser()"> team </button>
+        </td>
+    </tr>
+</table>
